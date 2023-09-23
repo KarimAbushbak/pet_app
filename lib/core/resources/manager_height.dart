@@ -1,5 +1,3 @@
-
-
 import '../utils/size_util.dart';
 
 class ManagerHeight {
@@ -18,6 +16,7 @@ class ManagerHeight {
   static double h22 = SizeUtil.setHeight(22);
   static double h24 = SizeUtil.setHeight(24);
   static double h26 = SizeUtil.setHeight(26);
+  static double h29 = SizeUtil.setHeight(29);
   static double h30 = SizeUtil.setHeight(30);
   static double h34 = SizeUtil.setHeight(34);
   static double h36 = SizeUtil.setHeight(36);
@@ -31,6 +30,7 @@ class ManagerHeight {
   static double h56 = SizeUtil.setHeight(56);
   static double h60 = SizeUtil.setHeight(60);
   static double h70 = SizeUtil.setHeight(70);
+  static double h75 = SizeUtil.setHeight(75);
   static double h80 = SizeUtil.setHeight(80);
   static double h82 = SizeUtil.setHeight(82);
   static double h90 = SizeUtil.setHeight(90);
@@ -45,7 +45,11 @@ class ManagerHeight {
   static double h210 = SizeUtil.setHeight(210);
   static double h220 = SizeUtil.setHeight(220);
   static double h254 = SizeUtil.setHeight(254);
+  static double h270 = SizeUtil.setHeight(270);
+  static double h274 = SizeUtil.setHeight(274);
   static double h320 = SizeUtil.setHeight(320);
+  static double h303 = SizeUtil.setHeight(303);
+  static double h310 = SizeUtil.setHeight(310);
   static double h285 = SizeUtil.setHeight(285);
   static double h450 = SizeUtil.setHeight(450);
   static double h500 = SizeUtil.setHeight(500);

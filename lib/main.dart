@@ -1,7 +1,24 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:pet_app/route/routes.dart';
 
-void main() {
-  runApp(const MyApp());
+import 'config/dependancy_injection.dart';
+import 'config/locale/locale_settings.dart';
+import 'core/constants.dart';
+import 'core/resources/manager_assets.dart';
+
+main() async {
+  await initModule();
+  runApp(
+    EasyLocalization(
+        supportedLocales: LocaleSettings().locales,
+        path: ManagerPaths.translationsPath,
+        startLocale: localeSettings.defaultLocale,
+        fallbackLocale: localeSettings.defaultLocale,
+        child: const MyApp()),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -9,7 +26,21 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return ScreenUtilInit(
+        splitScreenMode: true,
+        designSize:
+        Size(Constants.designDeviceWidth, Constants.designDeviceHeight),
+        builder: (context, child) {
+          return GetMaterialApp(
+            localizationsDelegates: context.localizationDelegates,
+            supportedLocales: context.supportedLocales,
+            locale: context.locale,
+            debugShowCheckedModeBanner: false,
+            theme: ThemeData(useMaterial3: true),
+            initialRoute: Routes.splashScreen,
+            onGenerateRoute: RouteGenerator.getRoute,
+          );
+        });
   }
 }
 
