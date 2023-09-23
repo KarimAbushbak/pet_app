@@ -1,5 +1,3 @@
-
-
 import '../utils/size_util.dart';
 
 class ManagerWidth {
@@ -21,8 +19,8 @@ class ManagerWidth {
   static double w64 = SizeUtil.setWidth(64);
   static double w80 = SizeUtil.setWidth(80);
   static double w82 = SizeUtil.setWidth(82);
-  static double w98= SizeUtil.setWidth(98);
-  static double w97= SizeUtil.setWidth(97);
+  static double w98 = SizeUtil.setWidth(98);
+  static double w97 = SizeUtil.setWidth(97);
   static double w100 = SizeUtil.setWidth(100);
   static double w138 = SizeUtil.setWidth(138);
   static double w110 = SizeUtil.setWidth(110);
@@ -35,8 +33,10 @@ class ManagerWidth {
   static double w200 = SizeUtil.setWidth(200);
   static double w238 = SizeUtil.setWidth(238);
   static double w249 = SizeUtil.setWidth(249);
+  static double w260 = SizeUtil.setWidth(260);
   static double w275 = SizeUtil.setWidth(275);
   static double w300 = SizeUtil.setWidth(300);
   static double w315 = SizeUtil.setWidth(315);
   static double w320 = SizeUtil.setWidth(320);
+  static double w370 = SizeUtil.setWidth(370);
 }
