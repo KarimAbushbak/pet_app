@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class ManagerColors {
-  static const Color primaryColor = Color(0xff20C3AF);
+  static const Color primaryColor = Color(0xffB12A1C);
   static const Color slideDrawerColor = Color(0xff525464);
   static const Color primaryTextColor = Color(0xff616173);
   static Color secondaryColor = Color(0xff525464);
