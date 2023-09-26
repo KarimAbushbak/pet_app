@@ -1,6 +1,8 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:pet_app/config/dependancy_injection.dart';
+import 'package:pet_app/features/auth/presntation/view/authentication_view.dart';
 
 import '../features/splash/presntation/view/splash_screen.dart';
 
@@ -19,7 +21,10 @@ class RouteGenerator{
   static Route<dynamic> getRoute(RouteSettings settings){
     switch(settings.name){
       case Routes.splashScreen :
+        initSplash();
         return MaterialPageRoute(builder: (_)=>SplashScreen());
+      case Routes.authenticationView :
+        return MaterialPageRoute(builder: (_)=>AuthenticationView());
       default:
         return MaterialPageRoute(builder: (_)=>Undefined());
 

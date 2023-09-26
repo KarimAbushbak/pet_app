@@ -19,7 +19,7 @@
   "start": "بدء",
   "next": "التالي",
   "skip": "تخطي",
-  "welcomeTo": "مرحبًا في",
+  "welcomeTo": "اهلا بك !",
   "notFoundRoute": "الصفحة غير موجودة",
   "signIn": "تسجيل الدخول",
   "signUp": "إنشاء حساب",
@@ -44,5 +44,8 @@
   "profile": "الحساب الشخصي",
   "settings": "الاعدادات",
   "messages": "الرسائل",
-  "language": "اللغات"
+  "language": "اللغات",
+  "createAccount": "انشاء حساب",
+  "existingMember": "مشترك كوجود؟",
+  "loginHere": "سجل هنا"
 }

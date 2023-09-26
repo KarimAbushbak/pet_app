@@ -27,10 +27,13 @@ class ManagerStrings {
   static String get signUp => tr('signUp');
   static String get rememberMe => tr('rememberMe');
   static String get username => tr('username');
+  static String get createAccount => tr('createAccount');
   static String get email => tr('email');
   static String get phone => tr('phone');
   static String get password => tr('password');
   static String get confirmPassword => tr('confirmPassword');
+  static String get existingMember => tr('existingMember');
+  static String get loginHere => tr('loginHere');
   static String get forgotYourPassword => tr('forgotYourPassword');
   static String get donNotHaveAnAccount => tr("donNotHaveAnAccount");
   static String get alreadyHaveAccount => tr('alreadyHaveAccount');
