@@ -3,8 +3,10 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import '../core/storage/local/database/shared_preferences/app_settings_shared_preferences.dart';
+import '../features/splash/presntation/controller/splash_controller.dart';
 
 initModule() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,9 +17,9 @@ initModule() async {
 
 }
 
-// initSplash() {
-//   // Get.put<SplashController>(SplashController());
-// }
+initSplash() {
+  Get.put<SplashController>(SplashController());
+}
 //
 // disposeSplash() {
 //   Get.delete<SplashController>();
