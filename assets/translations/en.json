@@ -19,7 +19,7 @@
   "start": "Start",
   "next": "Next",
   "skip": "Skip",
-  "welcomeTo": "Welcome to",
+  "welcomeTo": "Welcome,Pet Owner",
   "notFoundRoute": "Route Not Found",
   "signIn": "Sign in",
   "signUp": "Sign Up",
@@ -44,7 +44,10 @@
   "profile": "Profile",
   "settings": "Settings",
   "messages": "Messages",
-  "language": "Language"
+  "language": "Language",
+  "createAccount": "Create Account",
+  "existingMember": "Existing Member?",
+  "loginHere": "Login Here "
 
 
 
